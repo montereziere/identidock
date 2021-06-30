@@ -2,7 +2,7 @@ identidock:
   build:
   expose:
    - "9090"
-  embironment:
+  environment:
     ENV: PROD
   links:
    - dnmonster
